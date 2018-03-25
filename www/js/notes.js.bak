@@ -127,10 +127,10 @@ var app = {
 
   hayWifi: function() {
   	if(navigator.connection.type==='wifi'){
-  	//	alert('tienes conexion de WIFI');
+  		alert('tienes conexion de WIFI');
   return true}
   else{
-  //	alert('NO tienes conexion de WIFI');
+  	alert('NO tienes conexion de WIFI');
 		return false;}
   },
 
